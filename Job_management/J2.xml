@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="V3 Admin">
+   
+    <test name= "Verify Login" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+         <classes>
+            <class name="Test.RunTest">
+                <methods preserve-order="true">
+                     <include name="testlogin"></include>
+                   <include name="navjobinduct"></include>
+                <!--<include name="VerifyUploadRecords"></include>
+                    <include name="VerifyDatalinkIcon"></include>
+                    <include name="Verifymappingicon"></include>
+                    <include name="VerifyDataMappingscreen"></include>-->
+                    <include name="VerifyViewrecordsgrid"></include>
+                   
+                </methods>
+            </class>
+            </classes>
+    </test>
+    </suite>

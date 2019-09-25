@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Test.RunTest">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="navjobinduct"/>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- Test.RunTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

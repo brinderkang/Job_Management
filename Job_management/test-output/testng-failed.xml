@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [V3 Admin]">
+  <parameter name="browser" value="IE"/>
+  <test name="Add Bindery Jobs(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="Test.RunTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="launch_browser"/>
+          <include name="addbinderyjobs"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Test.RunTest -->
+    </classes>
+  </test> <!-- Add Bindery Jobs(failed) -->
+  <test name="Search Bindery Jobs(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="Test.RunTest">
+        <methods>
+          <include name="searchbinderyjobs"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="launch_browser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Test.RunTest -->
+    </classes>
+  </test> <!-- Search Bindery Jobs(failed) -->
+</suite> <!-- Failed suite [V3 Admin] -->

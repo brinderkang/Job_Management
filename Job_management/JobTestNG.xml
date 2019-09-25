@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="V3 Admin">
+   <tests>
+    <test name= "Verify Login" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+         <classes>
+            <class name="Test.RunTest">
+                <methods>
+                     <include name="testlogin"></include>
+               <!-- <include name="navjobinduct"></include>
+               		<include name="VerifyUploadRecords"></include>
+                    <include name="VerifyDatalinkIcon"></include>
+                    <include name="Verifymappingicon"></include>
+                    <include name="VerifyDataMappingscreen"></include>
+                    <include name="VerifyViewrecordsgrid"></include> -->
+                </methods>
+            </class>
+            </classes>
+    </test>
+    
+    
+ <!--   <test name= "Verify Navigation to Job Induct Page" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                     <include name="navjobinduct"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     
+   <test name= "Verify Upload New records" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                     <include name="VerifyUploadRecords"></include>
+                     <include name="VerifyDataMappingscreen"></include>
+                     <include name="Verifymappingicon"></include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+
+    
+     <test name= "Verify Inducted Jobs in result Grid" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                    <include name="VerifyViewrecordsgrid"></include>
+                    
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+    
+    <test name= "Add Bindery Jobs" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                    <include name="addbinderyjobs"></include>
+                    
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name= "Search Bindery Jobs" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                    <include name="searchbinderyjobs"></include>
+                    
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <!--  <test name= "Verify job in Job Status" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                    <include name="jobstatusjobs"></include>
+                    
+                </methods>
+            </class>
+        </classes>
+    </test>
+     <test name= "Verify change Job Status" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                    <include name="changejobstatusjobs"></include>
+                    
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name= "Verify change Job Status of inducted jobs " preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                    <include name="jobstatusinductedjobs"></include>
+                    
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+    
+    
+     <!-- <test name= "Close Browser" preserve-order="true">
+         <parameter name="browser" value="IE"/>
+        <classes>
+            <class name="Test.RunTest">
+                <methods>
+                    <include name="closebrowser"></include>     
+                </methods>
+            </class>
+        </classes>
+    </test>
+   -->   
+    </tests>
+</suite>
